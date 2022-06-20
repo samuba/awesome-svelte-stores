@@ -25,9 +25,9 @@ Many stores are just one small file that you can drop in your project without ev
 
 ## Fetching Data
 - [svelte-query](https://github.com/SvelteStack/svelte-query)
-  - Advanced asynchronous state management including caching, auto-refetching etc. Like Apollo for arbitrary async calls. TanStack/query fork?
+  - Advanced asynchronous state management including caching, auto-refetching etc. TanStack/query fork?
 - [svelte-asyncable](https://github.com/PaulMaly/svelte-asyncable )
-    - tiny, declarative, optimistic, async store
+    - Tiny, declarative, optimistic, async store
 - [Fetch Store](https://svelte.dev/repl/a74f1ed8e3eb4aec82cb743e13443ee4?version=3.48.0)
   - Convenience wrapper for `fetch()`
 - [Periodic Fetch Store](https://svelte.dev/repl/b8fa406464d6434fba97902ac78b5e2b?version=3.48.0)
@@ -79,6 +79,12 @@ Many stores are just one small file that you can drop in your project without ev
 - [svelte-readonly](https://github.com/Crisfole/svelte-readonly) 
     - Very small store that exposes only a readable interface.
 
+## Inspired State Management
+- [stores-x](https://github.com/Anyass3/stores-x) 
+    - State management heaviliy inspired by [VueX](https://github.com/vuejs/vuex)
+- [MiniRx](https://spierala.github.io/mini-rx-store/) 
+    - RxJS Redux Store that works with TypeScript
+
 ## CSS
 - [sw-yx/everything-store](https://github.com/sw-yx/everything-store)
   - CSS related stores for: Tailwind Breakpoints, Media Queries, Dark Mode 
@@ -96,8 +102,6 @@ Many stores are just one small file that you can drop in your project without ev
 ## Others
 - [timhall/svelte-observable](https://github.com/timhall/svelte-observable)
   - Wrapper for Observables (e.g. RxJS) 
-- [MiniRx](https://spierala.github.io/mini-rx-store/) 
-    - RxJS Redux Store that works with TypeScript
 - [Toggle Store](https://svelte.dev/repl/a3cb054398a94698a4cfe4c44f33b923?version=3.48.0)
 - [Svelte Tutorial Time](https://github.com/sveltejs/svelte/blob/master/site/content/tutorial/08-stores/03-readable-stores/app-b/stores.js)
   - Shows current time 
@@ -106,10 +110,8 @@ Many stores are just one small file that you can drop in your project without ev
 - [svelte-lens-store](https://github.com/aredridel/svelte-lens-store) 
     - Functional lenses over Svelte stores
 - [svelte-xactor](https://github.com/wobsoriano/svelte-xactor) 
-    - middleware that allows you to easily convert your xactor actors (actors from [xstate](https://xstate.js.org/)) into a global store that implements the store contract
-- [stores-x](https://github.com/Anyass3/stores-x) 
-    - State management heaviliy inspired by [VueX](https://github.com/vuejs/vuex)
+    - Middleware that allows you to easily convert your xactor actors (actors from [xstate](https://xstate.js.org/)) into a global store
 - [svelte-damped-store](https://github.com/aredridel/svelte-damped-store) 
     - derived writable store that can suspend updates while user is still interacting 
 - [svelte-entity-store](https://github.com/tony-sull/svelte-entity-store) 
-    -  provide a simple, generic solution for storing collections of entity objects.
+    -  Simple, generic solution for storing collections of entity objects.
