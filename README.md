@@ -1,8 +1,8 @@
-# List of awesome svelte stores
+# List of awesome Svelte stores
 There are many very useful svelte stores that might make your life easier without you knowing that they exist. Hence this list to surface those gems.
 Just reading through the list might also give you some inspiration for solving your problems more elegantly with a store. PR's welcome.
 
-Many stores are just one small file that you can drop in your project without even having to add a dependency.
+ℹ️ Many stores are just one small file that you can drop in your project without even having to add a dependency.
 
 
 ## Browser Storage
