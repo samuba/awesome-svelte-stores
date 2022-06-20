@@ -6,14 +6,16 @@ Many stores are just one small file that you can drop in your project without ev
 
 
 ## Browser Storage
-- [LocalStorage Custom Store](https://svelte.dev/repl/e6c0e3db7d064d43a7e4559b2862e1f7?version=3.48.0)
-- [babichjacob/svelte-localstorage](https://github.com/babichjacob/svelte-localstorage)
-- [@macfja/svelte-persistent-store](https://github.com/MacFJA/svelte-persistent-store)
-  - supports different/custom storage providers 
-- [@furudean/svelte-persistent-store](https://github.com/furudean/svelte-persistent-store) 
-    - writable svelte store that saves and loads data from `Window.localStorage` or `Window.sessionStorage`.
 - [persistent-svelte-store](https://github.com/omer-g/persistent-svelte-store) 
-    - Built from scratch in TypeScript. Is reactive across tabs or windows using the Broadcast Channel API.
+  - Built from scratch in TypeScript. Is reactive across tabs or windows using the Broadcast Channel API.
+- [@macfja/svelte-persistent-store](https://github.com/MacFJA/svelte-persistent-store)
+  - Supports different/custom storage providers 
+- [babichjacob/svelte-localstorage](https://github.com/babichjacob/svelte-localstorage)
+  - SSR support 
+- [@furudean/svelte-persistent-store](https://github.com/furudean/svelte-persistent-store) 
+    - Saves and loads data from `Window.localStorage` or `Window.sessionStorage`.
+- [LocalStorage Custom Store](https://svelte.dev/repl/e6c0e3db7d064d43a7e4559b2862e1f7?version=3.48.0)
+  - Very simple persisting to localstorage.  
 
 ## Browser Navigation
 - [svelte-store-router](https://github.com/zyxd/svelte-store-router) 
@@ -30,7 +32,7 @@ Many stores are just one small file that you can drop in your project without ev
   - Convenience wrapper for `fetch()`
 - [Periodic Fetch Store](https://svelte.dev/repl/b8fa406464d6434fba97902ac78b5e2b?version=3.48.0)
 - [svelte-websocket-store](https://github.com/arlac77/svelte-websocket-store)
-  - send/receive data from a websocket 
+  - Send/receive data from a websocket 
 - [@macfja/svelte-invalidable](https://github.com/MacFJA/svelte-invalidable )
     - A store that can be requested to update itself
 
@@ -61,10 +63,10 @@ Many stores are just one small file that you can drop in your project without ev
 
 ## State Machine
 - [svelte-fsm](https://github.com/kenkunz/svelte-fsm)
-  - only 1kb, very simple, typescript support
+  - Only 1kb, very simple, typescript support
   - [9min video introduction](https://www.youtube.com/watch?v=3_D-3HPUdEI)
 - [xstate-svelte](https://xstate.js.org/docs/packages/xstate-svelte/#quick-start)
-  - wrapper around [xstate](https://xstate.js.org/). Xstate: 30kb, complete suit with visual editor and support for charts.
+  - Wrapper around [xstate](https://xstate.js.org/). Xstate: 30kb, complete suit with visual editor and support for charts.
   - [7min video introduction](https://www.youtube.com/watch?v=NIfQsc5XAzU)
 - [svate](https://github.com/AlexxNB/svate )
     - Set of simple state machines for Svelte application (Flag, Flagset..)
@@ -75,16 +77,17 @@ Many stores are just one small file that you can drop in your project without ev
 - [svelte-restate](https://github.com/endenwer/svelte-restate )
     - Immutable store for Svelte with full Typescript support and Redux Devtools integration
 - [svelte-readonly](https://github.com/Crisfole/svelte-readonly) 
-    - very small store that exposes only a readable interface.
+    - Very small store that exposes only a readable interface.
 
 ## CSS
 - [sw-yx/everything-store](https://github.com/sw-yx/everything-store)
   - CSS related stores for: Tailwind Breakpoints, Media Queries, Dark Mode 
 - [svelte-animation-store](https://github.com/joshnuss/svelte-animation-store) 
-    - store that is based on Svelte's tweened store, that lets you pause, continue, reset, replay, reverse or adjust speed of a tween.
+    - Based on Svelte's tweened store, that lets you pause, continue, reset, replay, reverse or adjust speed of a tween.
 
 ## Notifications
 - [Notification Toast Custom Store](https://svelte.dev/repl/e166b01bc46149a49895c1622d26ce7e?version=3.48.0)
+  - Auto-disappearing notifications/toasts
 
 ## 3rd-Party interaction
 - [svelte-ethers-store](https://www.npmjs.com/package/svelte-ethers-store) 
