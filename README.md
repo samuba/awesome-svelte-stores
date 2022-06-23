@@ -103,8 +103,6 @@ Just reading through the list might also give you some inspiration for solving y
 - [timhall/svelte-observable](https://github.com/timhall/svelte-observable)
   - Wrapper for Observables (e.g. RxJS) 
 - [Toggle Store](https://svelte.dev/repl/a3cb054398a94698a4cfe4c44f33b923?version=3.48.0)
-- [Svelte Tutorial Time](https://github.com/sveltejs/svelte/blob/master/site/content/tutorial/08-stores/03-readable-stores/app-b/stores.js)
-  - Shows current time 
 - [svelte-webext-storage-adapter](https://github.com/PixievoltNo1/svelte-webext-storage-adapter )
     - Writable stores for Firefox/Chrome extensions using `chrome.storage
 - [svelte-lens-store](https://github.com/aredridel/svelte-lens-store) 
