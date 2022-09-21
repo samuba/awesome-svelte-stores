@@ -1,3 +1,4 @@
+
 # List of awesome Svelte stores
 There are many very useful svelte stores that might make your life easier without you knowing that they exist. Hence this list to surface those gems.
 Just reading through the list might also give you some inspiration for solving your problems more elegantly with a store. PR's welcome.
@@ -44,14 +45,24 @@ Just reading through the list might also give you some inspiration for solving y
 - [svelte-previous](https://github.com/bryanmylee/svelte-previous) 
     - Remember previous values - helpful for transitions or a quick undo stack
 
-## Upgraded Stores
+## Time
 - [@macfja/svelte-expirable](https://github.com/MacFJA/svelte-expirable )
-    - A Svelte store with items that expire
+    - A store with items that expire
+- [@crikey/stores-temporal](https://www.npmjs.com/package/@crikey/stores-temporal) 
+  - Time based stores such as debounce and throttle 
+- [svelte-damped-store](https://github.com/aredridel/svelte-damped-store) 
+    - derived writable store that can suspend updates while user is still interacting 
+
+## Upgraded Stores
 - [svelte-store2](https://github.com/vkurko/svelte-store2 )
-    - Adds a `get()` function to writable, derived and readable that returns the actual value without subscribing/ubsubscribing in the background like svelte's normal [get()]
+  - Adds a `get()` function to writable, derived and readable that returns the actual value without subscribing/ubsubscribing in the background like svelte's normal [get()]
     (https://svelte.dev/docs#run-time-svelte-store-get) function.
 - [SvelteStore](https://github.com/gitbreaker222/SvelteStore )
-    - Track state diffs, Inspect current state, Type warnings, Persistent storage, Infinite loop detection, Testable Actions, Audible activity
+  - Track state diffs, Inspect current state, Type warnings, Persistent storage, Infinite loop detection, Testable Actions, Audible activity
+- [@crikey/stores-promise](https://www.npmjs.com/package/@crikey/stores-promise) 
+  - Create stores from promises
+- [@crikey/stores-strict](https://www.npmjs.com/package/@crikey/stores-strict) 
+  - Stores using strict inequality checking
 
 ## Stores affecting each other
 - [svelte-keyed](https://github.com/bryanmylee/svelte-keyed) 
@@ -60,6 +71,10 @@ Just reading through the list might also give you some inspiration for solving y
     - Adds `get()` without subsription and recalculation of store value that is dependent on other stores values
 - [svelte-writable-derived](https://github.com/PixievoltNo1/svelte-writable-derived )
     - Two-way data-transforming store
+- [@crikey/stores-selectable](https://www.npmjs.com/package/@crikey/stores-selectable) 
+  - Extend stores with selection semantics, allowing for the easy creation of type safe sub-stores 
+- [@crikey/stores-dynamic](https://www.npmjs.com/package/@crikey/stores-dynamic) 
+  - Derived stores with dynamic dependency support and natural error handling/propagation 
 
 ## State Machine
 - [svelte-fsm](https://github.com/kenkunz/svelte-fsm)
@@ -78,6 +93,8 @@ Just reading through the list might also give you some inspiration for solving y
     - Immutable store for Svelte with full Typescript support and Redux Devtools integration
 - [svelte-readonly](https://github.com/Crisfole/svelte-readonly) 
     - Very small store that exposes only a readable interface.
+- [@crikey/stores-immer](https://www.npmjs.com/package/@crikey/stores-immer) 
+  - Immutable Svelte compatible stores using [Immer](https://immerjs.github.io/immer/)
 
 ## Inspired State Management
 - [stores-x](https://github.com/Anyass3/stores-x) 
@@ -96,12 +113,14 @@ Just reading through the list might also give you some inspiration for solving y
   - Auto-disappearing notifications/toasts
 
 ## 3rd-Party interaction
+- [@crikey/stores-rxjs](https://www.npmjs.com/package/@crikey/stores-rxjs) 
+  - Simple conversion functions to allow interop of Svelte style stores with [RxJS](https://rxjs.dev/) style stores
+- [timhall/svelte-observable](https://github.com/timhall/svelte-observable)
+  - Wrapper for Observables (e.g. [RxJS](https://rxjs.dev/)) 
 - [svelte-ethers-store](https://www.npmjs.com/package/svelte-ethers-store) 
     - ethers.js to interact with the Ethereum Blockchain
 
 ## Others
-- [timhall/svelte-observable](https://github.com/timhall/svelte-observable)
-  - Wrapper for Observables (e.g. RxJS) 
 - [Toggle Store](https://svelte.dev/repl/a3cb054398a94698a4cfe4c44f33b923?version=3.48.0)
 - [svelte-webext-storage-adapter](https://github.com/PixievoltNo1/svelte-webext-storage-adapter )
     - Writable stores for Firefox/Chrome extensions using `chrome.storage
@@ -109,7 +128,5 @@ Just reading through the list might also give you some inspiration for solving y
     - Functional lenses over Svelte stores
 - [svelte-xactor](https://github.com/wobsoriano/svelte-xactor) 
     - Middleware that allows you to easily convert your xactor actors (actors from [xstate](https://xstate.js.org/)) into a global store
-- [svelte-damped-store](https://github.com/aredridel/svelte-damped-store) 
-    - derived writable store that can suspend updates while user is still interacting 
 - [svelte-entity-store](https://github.com/tony-sull/svelte-entity-store) 
     -  Simple, generic solution for storing collections of entity objects.
