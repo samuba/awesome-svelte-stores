@@ -120,10 +120,14 @@ Just reading through the list might also give you some inspiration for solving y
 - [svelte-ethers-store](https://www.npmjs.com/package/svelte-ethers-store) 
     - ethers.js to interact with the Ethereum Blockchain
 
-## Others
-- [Toggle Store](https://svelte.dev/repl/a3cb054398a94698a4cfe4c44f33b923?version=3.48.0)
+## Browser Extensions
+- [svelte-chrome-storage](https://github.com/shaun-wild/svelte-chrome-storage)
+  - A lightweight abstraction between Svelte stores and Chrome extension storage.
 - [svelte-webext-storage-adapter](https://github.com/PixievoltNo1/svelte-webext-storage-adapter )
     - Writable stores for Firefox/Chrome extensions using `chrome.storage
+
+## Others
+- [Toggle Store](https://svelte.dev/repl/a3cb054398a94698a4cfe4c44f33b923?version=3.48.0)
 - [svelte-lens-store](https://github.com/aredridel/svelte-lens-store) 
     - Functional lenses over Svelte stores
 - [svelte-xactor](https://github.com/wobsoriano/svelte-xactor) 
